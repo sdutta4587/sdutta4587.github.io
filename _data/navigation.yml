@@ -2,7 +2,10 @@
 main:
   - title: "CV"
     # url: /cv/
-    url: /files/Resume.pdf
+    url: /files/CV_Saurav_Dutta.pdf
+
+  - title: "Experience"
+    url: /talks/  
 
   - title: "Portfolio"
     url: /portfolio/
@@ -12,13 +15,10 @@ main:
     # url: https://scholar.google.es/citations?user=xxxxxxxx=en
         
   # - title: "Blog Posts"
-  #   url: /year-archive/
+  #   url: /year-archive/  
 
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
+   - title: "Teaching"
+     url: /teaching/    
     
-  # - title: "Guide"
-  #   url: /markdown/
+   - title: "Courses"
+     url: /markdown/
