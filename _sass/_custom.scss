@@ -12,8 +12,42 @@ header {
     font-family: 'Roboto', sans-serif; /* Custom font for header */
 }
 
-footer {
+.page__footer {
     background-color: #121212; /* Dark background color for footer */
     color: #ffffff; /* Light text color for footer */
     font-family: 'Roboto', sans-serif; /* Custom font for footer */
+
+    footer {
+        color: inherit;
+        font-family: inherit;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .fas,
+    .fab,
+    .far,
+    .fal {
+        color: #ffffff;
+    }
+}
+
+.page__footer-copyright,
+.page__footer-follow {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page__footer-follow ul li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page__footer-follow ul li a {
+    color: inherit;
 }
